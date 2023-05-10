@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" 
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="estilo.css" />
+
+    <title>Portafolio Camilo</title>
+  </head>
+
+  <body>
+    <!--parte de inicio-->
+    <span class="sombra">
+      <section id="inicio" class="inicio">
+        <div class="contenido">
+          <header>
+            <div class="logo">
+              <i class="fa-solid fa-khanda"></i>
+              <h1>Camilo</h1>
+            </div>
+            <nav id="nav" class="">
+              <a href="#inicio">Inicio</a>
+              <a href="#estudios">Estudios</a>
+              <a href="#habilidades">Habilidades</a>
+              <a href="#proyectos">Proyectos</a>
+              <a href="#contacto">Contacto</a>
+            </nav>
+            <div id="icono-nav" onclick="responsiveMenu()"> 
+            <i class="fa-solid fa-bars"></i>
+          </div>
+            <div class="redes">
+              <a href="https://github.com/camilo154"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/cristian-torres-49288a24a/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/camilotorres.154/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </header>
+          <div class="fila">
+            <div class="col">
+              <h2>Desarrollador Web</h2>
+
+              <p>
+                Tecnico laboral en desarrollo web. Conocimientos en
+                manejo de post, datafonos, caja e inventarios Una persona
+                ordenada, exigente y eficiente, orientado siempre a la
+                excelencia, íntegro y comprometido, con facilidad para el
+                aprendizaje y la enseñanza, dispuesto a entregar siempre más,
+                todo con el fin de lograr satisfacción y resultados tanto
+                laborales como personales.
+              </p>
+
+              <button class="btn-1">Descargar CV</button>
+            </div>
+            <div class="col">
+              <div class="contenedor-img">
+                <img
+                  src="https://res.cloudinary.com/db8koqsxz/image/upload/v1673212317/diseno-web_nq8isl.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </span>
+    <!--parte de estudios-->
+    <section id="estudios" class="estudios">
+      <div class="fila">
+        <div class="col">
+          <div class="card">
+            <div class="icono color1">
+              <div class="circulo">
+                <i class="fa-brands fa-connectdevelop"></i>
+              </div>
+            </div>
+            <h3>Tecnico Laboral</h3>
+            <h4>Finalizado</h4>
+            <p>diciembre de 2022</p>
+            <h4>Institucion</h4>
+            <p>Universidad autonoma de bucaramanga</p>
+            <a href="#">Ver Certificado</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="icono color2">
+              <div class="circulo">
+                <i class="fa-brands fa-connectdevelop"></i>
+              </div>
+            </div>
+            <h3>Diplomado Desarrollo De Aplicaciones Web</h3>
+            <h4>Finalizado</h4>
+            <p>Diciembre de 2022</p>
+            <h4>Institucion</h4>
+            <p>Universidad autonoma de bucaramanga</p>
+            <a href="https://res.cloudinary.com/db8koqsxz/image/upload/v1673405612/22-743-C4A_Certificado_Ciclo_4A_Web_page-0001_jyxulk.jpg">Ver Certificado</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="icono color3">
+              <div class="circulo">
+                <i class="fa-solid fa-book-atlas"></i>
+              </div>
+            </div>
+            <h3>Diplomado Ruta De Aprendizaje 2</h3>
+            <h4>Finalizado</h4>
+            <p>Diciembre de 2022</p>
+            <h4>Institucion</h4>
+            <p>Universidad Sergio Arboleda</p>
+            <a href="https://res.cloudinary.com/db8koqsxz/image/upload/v1673405398/diplomado_ruta_de_aprendizaje_2_klzv6h.jpg">Ver Certificado</a>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="col">
+          <div class="card">
+            <div class="icono color1">
+              <div class="circulo">
+                <i class="fa-brands fa-uncharted"></i>
+              </div>
+            </div>
+            <h3>Diplomado Desarrollo De sotfware</h3>
+            <h4>Finalizado</h4>
+            <p>Noviembre de 2022</p>
+            <h4>Institucion</h4>
+            <p>Universidad Sergio Arboleda</p>
+            <a href="https://res.cloudinary.com/db8koqsxz/image/upload/v1673405012/diplomado_desarrollo_de_sotfware1024_1_b1zyrh.jpg">Ver Certificado</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="icono color2">
+              <div class="circulo">
+                <i class="fa-brands fa-java"></i>
+              </div>
+            </div>
+            <h3>diplomado en Programación Básica con Java</h3>
+            <h4>Finalizado</h4>
+            <p>Septiembre de 2022</p>
+            <h4>Institucion</h4>
+            <p>Universidad Sergio Arboleda</p>
+            <a href="https://res.cloudinary.com/db8koqsxz/image/upload/v1673404753/certificado_ciclo_2_cikxng.jpg">Ver Certificado</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="icono color3">
+              <div class="circulo">
+                <i class="fa-brands fa-python"></i>
+              </div>
+            </div>
+            <h3>Diplomado Fundamentos De Programación Con Python</h3>
+            <h4>Finalizado</h4>
+            <p>Julio de 2022</p>
+            <h4>Institucion</h4>
+            <p>Universidad Sergio Arboleda</p>
+            <a href="https://res.cloudinary.com/db8koqsxz/image/upload/v1664334876/certificado_python_page-0001_dmd8zz.jpg">Ver Certificado</a>
+          </div>
+        </div>
+      </div>
+      <div class="otrosestudios">
+        <h1>Otros Estudios</h1>
+      </div>
+      <div class="fila">
+        <div class="col">
+          <div class="card">
+            <div class="icono color1">
+              <div class="circulo">
+                <i class="fa-solid fa-pepper-hot"></i>
+              </div>
+            </div>
+            <h3>Curso Manipulacion De Alimentos</h3>
+            <h4>Vence</h4>
+            <p>Abril De 2023</p>
+            <h4>Institucion</h4>
+            <p>FOMAN</p>
+            <a href="http://certificado.foman.co/1022981724?fbclid=IwAR2wfeiVjcjBtQZjoahg5HN04Ft-uagOqlzcTJ0jtl3rsbf4gaMzH-nU3nI">Ver Certificado</a>
+          </div>
+        </div>
+        <div class="col">
+        <div class="card">
+          <div class="icono color2">
+            <div class="circulo">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+          </div>
+          <h3>Tecnico Administracion De Restaurantes Y Cocina</h3>
+          <h4>Finalizado</h4>
+          <p>Diciembre De 2017</p>
+          <h4>Institucion</h4>
+          <p>INCAP</p>
+          <a href="https://res.cloudinary.com/db8koqsxz/image/upload/v1664335298/administracion_de_cocina_page-0001_tfricc.jpg">Ver Certificado</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="icono color3">
+            <div class="circulo">
+              <i class="fa-solid fa-martini-glass-citrus"></i>
+            </div>
+          </div>
+          <h3>Tecnico Servicios Hoteleros Y Gastronomicos</h3>
+          <h4>Finalizado</h4>
+          <p>Diciembre De 2017</p>
+          <h4>Institucion</h4>
+          <p>INCAP</p>
+          <a href="https://res.cloudinary.com/db8koqsxz/image/upload/v1664335316/servicios_hoteleros_page-0001_zleol3.jpg">Ver Certificado</a>
+        </div>
+    </div>
+        
+        </div>
+      </div>
+    </section>
+    <!--parte Habilidades-->
+    <section class="habilidades" id="habilidades">
+      <div class="contenedor-habi">
+        <h1>Habilidades</h1>
+        <div class="fila">
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart chart1"data-percent="90">
+                 90%
+                </div>
+                <h2>HTML</h2>
+              </div>
+            </div>
+          </div>
+       
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart chart1"data-percent="90">
+                  90%
+                </div>
+               <h2>CSS</h2> 
+              </div>
+            </div>
+          </div>
+
+         
+
+        <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart chart1"data-percent="75">
+                  75%
+                </div>
+                <h2>JAVASCRIPT</h2> 
+              </div>
+            </div>
+          </div>
+              </div>
+              <div class="fila">
+                <div class="col">
+                  <div class="score">
+                    <div class="box">
+                      <div class="chart chart1"data-percent="80">
+                        80%
+                      </div>
+                      <h2>JAVA</h2> 
+                    </div>
+                  </div>
+                  </div>
+          
+                <div class="col">
+                  <div class="score">
+                    <div class="box">
+                      <div class="chart chart1"data-percent="70">
+                       70%
+                      </div>
+                      <h2>PHYTON</h2>
+                    </div>
+                  </div>
+                </div>
+             
+      
+                <div class="col">
+                  <div class="score">
+                    <div class="box">
+                      <div class="chart chart1"data-percent="50">
+                        50%
+                      </div>
+                      <h2>MYSQL</h2> 
+                    </div>
+                  </div>
+                  </div>
+                    </div>
+            </div>
+    </section>
+    <!--Parte Proyectos-->
+    <section class="proyectos" id="proyectos">
+    <h2>Mis Proyectos</h2>
+    <nav>
+      <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+      <a href="javascript:void(0)" class="" id="diseño"onclick="verCategoria('diseño')">Diseño</a>
+      <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programacion </a>
+      <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria ('animaciones')">Animaciones </a>
+    </nav>
+
+    <div class="galeria">
+    <div class="item diseño">
+    <img src="https://res.cloudinary.com/db8koqsxz/image/upload/v1663984232/cld-sample-2.jpg" alt="">
+    <div class="info">
+      <h3>Titulo Del Trabajo</h3>
+      <span>html</span>
+      <span>css</span>
+      <span>javascript</span>
+      <a href="#">Ver Trabajo </a>
+      </div>
+    </div>
+
+    <div class="item programacion">
+      <img src="https://res.cloudinary.com/db8koqsxz/image/upload/v1663984231/cld-sample.jpg" alt="">
+      <div class="info">
+        <h3>Titulo Del Trabajo</h3>
+        <span>html</span><span>css</span><span>javascript</span>
+        <a href="#">Ver Trabajo </a>
+        </div>
+      </div>
+
+      <div class="item animaciones">
+        <img src="https://res.cloudinary.com/db8koqsxz/image/upload/v1663984231/cld-sample.jpg" alt="">
+        <div class="info">
+          <h3>Titulo Del Trabajo</h3>
+          <span>html</span><span>css</span><span>javascript</span>
+          <a href="#">Ver Trabajo </a>
+          </div>
+        </div>
+
+        <div class="item diseño">
+          <img src="https://res.cloudinary.com/db8koqsxz/image/upload/v1663984231/cld-sample.jpg" alt="">
+          <div class="info">
+            <h3>Titulo Del Trabajo</h3>
+            <span>html</span><span>css</span><span>javascript</span>
+            <a href="#">Ver Trabajo </a>
+            </div>
+          </div>
+
+          <div class="item animaciones">
+            <img src="https://res.cloudinary.com/db8koqsxz/image/upload/v1663984231/cld-sample.jpg" alt="">
+            <div class="info">
+              <h3>Titulo Del Trabajo</h3>
+              <span>html</span><span>css</span><span>javascript</span>
+              <a href="#">Ver Trabajo </a>
+              </div>
+            </div>
+
+            <div class="item programacion">
+              <img src="https://res.cloudinary.com/db8koqsxz/image/upload/v1663984232/cld-sample-2.jpg" alt="">
+              <div class="info">
+                <h3>Titulo Del Trabajo</h3>
+                <span>html</span><span>css</span><span>javascript</span>
+                <a href="#">Ver Trabajo </a>
+                </div>
+              </div>
+            </div>
+          </section>
+    <!--Parte Contacto-->
+    <section class="contacto" id="contacto">
+      <div class="contenedor-contacto">
+        <h2>Contacto</h2>
+        <div class="fila">
+          <div class="col">
+            <div class="info">
+              <h3>Email:</h3>
+              <p>kamilo.torres.154@gmail.com</p>
+             </div>
+             <div class="info">
+              <h3>Telefono:</h3>
+              <p>319-338-7464</p>
+             </div>
+             <div class="info">
+              <h3>Pais:</h3>
+              <p>Colombia</p>
+             </div>
+             <div class="info">
+              <h3>Ciudad:</h3>
+              <p>Bogota</p>
+             </div>
+          </div>
+          <div class="col">
+            <input type="text" placeholder="Nombre...">
+            <input type="text" placeholder="Correo...">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje">
+              </textarea>
+              <input type="submit" value="Enviar" class="btn">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Creado por Camilo Torres - 2023 -</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
